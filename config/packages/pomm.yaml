@@ -1,4 +1,4 @@
 pomm:
     configuration:
-        db:
+        melimelo:
             dsn: "%env(DATABASE_URL)%"
