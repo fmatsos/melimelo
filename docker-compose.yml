@@ -5,6 +5,7 @@ services:
         container_name: melimelo_postgres
         image: postgres:13
         environment:
+            POSTGRES_DB: melimelo
             POSTGRES_USER: ${POSTGRES_USER:-postgres}
             POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-password}
             PGDATA: /srv/postgres
